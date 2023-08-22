@@ -1,6 +1,6 @@
 name: Bug Report
 description: Request a new EC configuration to be added
-labels: ["Bug"]
+labels: ["bug"]
 
 body:
   - type: input
