@@ -1,6 +1,6 @@
 name: New firmware request
 description: Request a new EC configuration to be added
-labels: ["New firmware"]
+labels: ["New hardware/firmware"]
 
 body:
   - type: markdown
@@ -45,7 +45,8 @@ body:
       options:
         - Nvidia
         - AMD
-        - Intel only
+        - iGPU only (Intel)
+        - iGPU only (AMD)
     validations:
       required: true
 
